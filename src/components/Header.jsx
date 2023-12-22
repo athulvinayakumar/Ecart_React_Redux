@@ -12,9 +12,9 @@ function Header() {
   const cart = useSelector((state)=>state.cartReducer) // state represnts store
   console.log(wishlist); 
   return (
-    <Navbar expand="lg" className="bg-primary " fixed='top'>
+    <Navbar expand="lg" className="bg-black " fixed='top'>
       <Container>
-        <Navbar.Brand><Link to={'/'} style={{ textDecoration: "none", color: 'white', fontWeight: 'bolder', fontSize: '30px' }}><i className="fa-solid fa-bounce fa-cart-shopping me-3"></i>E-CART</Link></Navbar.Brand>
+        <Navbar.Brand><Link to={'/'} style={{ textDecoration: "none", color: 'white', fontWeight: 'bolder', fontSize: '30px' }}><i className="fa-solid fa-bounce fa-cart-shopping me-3"></i>ShopVista</Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
